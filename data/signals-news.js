@@ -27,6 +27,8 @@ window.LR_NEWS = {
         "Ask Giant whether any of our frames could be built at a Giant plant outside Taiwan. Reports say the order does not appear to cover those.",
         "Becomes RED if the order is confirmed to cover our frames or any frame shipment is detained."
       ],
+      escalatesTo: "RED",
+      escalatesWhen: "the order is confirmed to cover our frames, or any frame shipment is detained",
       raises: [{ supplier: "S04", level: "AMBER" }]
     },
     {
